@@ -463,3 +463,19 @@ PATCH: bug fixes
 Unit tests test individual pieces of logic in isolation.
 Integration tests verify how multiple components or modules work together.
 Both are important — unit tests catch logic bugs early, while integration tests validate real app behavior.
+
+## equals and hashCode contract
+The equals–hashCode contract in Java ensures that objects behave correctly in hash-based collections (HashMap, HashSet, etc.).
+
+The contract says:
+
+If two objects are equal according to equals(), they must have the same hashCode().
+Otherwise, a HashMap/HashSet won’t be able to find the object in the correct bucket.
+
+If two objects have the same hashCode(), they do not have to be equal.
+Collisions are allowed — hashCode only narrows down the bucket.
+
+hashCode() must always return the same value for the same object during its lifetime (as long as fields used in equals don’t change).
+
+Why it matters:
+If you override equals() but forget to override hashCode(), collections like HashSet will fail to locate objects properly — you can insert an object but not find or remove it later.
