@@ -356,8 +356,6 @@ Unlike HTTP, which is request-response, WebSockets allow real-time data exchange
 
 
 
-
-
 # Frontend x Backend Communication
 
 ## What is REST API?
@@ -468,7 +466,6 @@ Both are important — unit tests catch logic bugs early, while integration test
 The equals–hashCode contract in Java ensures that objects behave correctly in hash-based collections (HashMap, HashSet, etc.).
 
 The contract says:
-
 If two objects are equal according to equals(), they must have the same hashCode().
 Otherwise, a HashMap/HashSet won’t be able to find the object in the correct bucket.
 
