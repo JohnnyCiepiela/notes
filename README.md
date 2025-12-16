@@ -92,7 +92,7 @@ Is like a meta-annotation, a main one, that triggers other important ones like C
 ## DAO
 A DAO (Data Access Object) is a design pattern that provides an interface to a database.
 It separates the persistence logic (SQL, JPA, database queries) from business logic.
-In Spring Boot we usually call it a Repository layer.
+In Spring Boot we usually call it Repository layer.
 
 ## DTO
 A DTO is a plain object used to transfer data between layers of an application, typically between the backend and frontend, or between services.
