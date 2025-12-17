@@ -441,7 +441,7 @@ Never using innerHTML with untrusted input
 Escaping user-generated content
 Avoiding bypassing sanitization (DomSanitizer.bypassSecurityTrust... only when safe)
 Validating and sanitizing data on the backend
-Security is always handled on both sides.
+Security should always be handled on both sides.
 
 ## What steps are included in a typical CI pipeline for a frontend app?
 Installing dependencies
