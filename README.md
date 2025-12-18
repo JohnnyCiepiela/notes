@@ -1,5 +1,5 @@
 # notes
-Notes for studying.
+Notes for studying and interview questions.
 
 ## Mock Stub
 In Stub we only care about the fixed response, and with Mock we care more about the behavior, about how a method or a service is called.
