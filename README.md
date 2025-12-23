@@ -4,18 +4,18 @@ Notes for studying and interview questions.
 ## Mock Stub
 In Stub we only care about the fixed response, and with Mock we care more about the behavior, about how a method or a service is called.
 
-## TDD Advantages:
+## TDD Advantages
 -better code quality
 -fewer bugs
 -safer refactoring, catching regressions early
 -better architecture --> TDD encourages decoupling
 
-## TDD Disadvantages:
+## TDD Disadvantages
 -slower initial development
 -higher entrance threshold
 -hard to apply in legacy applications
 
-## Spring Advantages:
+## Spring Advantages
 -Dependency Injection and Inversion of Control --> makes code loosely coupled, testable, modular
 -Auto-configuration saves time, embedded Tomcat
 -Huge ecosystem (Spring Security, Spring Batch, Spring Cloud, Spring JPA)
