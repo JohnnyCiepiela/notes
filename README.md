@@ -22,7 +22,7 @@ In Stub we only care about the fixed response, and with Mock we care more about 
 -Strong community and documentation
 -Great integration, works well with Hibernate, RabbitMQ, databases, Kubernetes
 
-## Spring Disadvantages:
+## Spring Disadvantages
 -Hard to learn, many modules and abstractions
 -Auto-configurations can be hard to debug ("Why was this Bean created?")
 -Heavy memory usage during startup
