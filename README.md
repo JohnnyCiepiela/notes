@@ -54,7 +54,7 @@ Properties are private with public getters and setters.
 
 In the context of frameworks like Spring, bean scope defines how long the bean instance lives and how it is shared:
 
-Scope	Description
+Scope - Description
 Singleton	One shared instance per Spring container (default).
 Prototype	A new instance every time it’s requested.
 Request	One instance per HTTP request (web applications).
