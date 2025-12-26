@@ -87,7 +87,7 @@ RP extracts query parameters from the URL.
 PV extracts values from the URI itself.
 
 ## SpringBootApplication
-Is like a meta-annotation, a main one, that triggers other important ones like Configuration and ComponentScan.
+Is a meta-annotation, a main one, that triggers other important ones like Configuration and ComponentScan.
 
 ## DAO
 A DAO (Data Access Object) is a design pattern that provides an interface to a database.
