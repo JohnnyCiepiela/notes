@@ -139,7 +139,7 @@ Map - key-value pairs, keys are unique
 Array - fixed size, can store primitives
 ArrayList - dynamic size, stores objects only
 
-## ArrayList and LinkedList
+## ArrayList vs LinkedList
 Both part of Java Collections framework, similar methods, both implement the List interface.
 
 LinkedList contains nodes which consist of value and a pointer to the next node, there can also be a doubly linked list where it contains pointers to both
