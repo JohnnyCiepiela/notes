@@ -8,7 +8,7 @@ In Stub we only care about the fixed response, and with Mock we care more about 
 -better code quality
 -fewer bugs
 -safer refactoring, catching regressions early
--better architecture --> TDD encourages decoupling
+-better architecture, TDD encourages decoupling
 
 ## TDD Disadvantages
 -slower initial development
