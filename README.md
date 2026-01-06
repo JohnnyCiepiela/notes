@@ -13,7 +13,7 @@ In Stub we only care about the fixed response, and with Mock we care more about 
 ## TDD Disadvantages
 -slower initial development
 -higher entrance threshold
--hard to apply in legacy applications
+-hard to apply in legacy apps
 
 ## Spring Advantages
 -Dependency Injection and Inversion of Control --> makes code loosely coupled, testable, modular
