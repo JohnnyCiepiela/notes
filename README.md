@@ -11,7 +11,7 @@ In Stub we only care about the fixed response, and with Mock we care more about 
 -better architecture, TDD encourages decoupling
 
 ## TDD Disadvantages
--slower initial development
+-slower initial development process
 -higher entrance threshold
 -hard to apply in legacy apps
 
