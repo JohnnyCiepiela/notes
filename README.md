@@ -43,7 +43,7 @@ Field Injection, Constructor Injection, Setter Injection, Method Injection. With
 code for Constructor Injection.
 
 ## Spring Boot
-Is an open-source framework on top of Spring, provides auto-configuration, based on dependencies, allowing developers to focus on business logic.
+Is an open-source framework on top of Spring, provides auto-configuration, based on dependencies, allowing developers to focus on the business logic.
 
 ## Beans
 A Java Bean is a reusable, serializable Java class that follows certain conventions and is used to encapsulate data.
